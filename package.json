@@ -1,0 +1,6 @@
+{
+  "name": "movies",
+  "version": "0.1",
+  "description": "Movies store app",
+  "main": "src/App.js"
+}
