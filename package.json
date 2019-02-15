@@ -1,6 +1,45 @@
 {
-  "name": "movies",
-  "version": "0.1",
+  "name": "movie-front",
+  "version": "0.1.0",
   "description": "Movies store app",
-  "main": "src/App.js"
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-scripts": "2.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "parcel ./public/index.html",
+    "parcelbuild": "parcel build ./src/index.html/"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.11.0",
+    "sass": "^1.17.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhonaldomaster/movie-front.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhonaldomaster/movie-front/issues"
+  },
+  "homepage": "https://github.com/rhonaldomaster/movie-front#readme"
 }
