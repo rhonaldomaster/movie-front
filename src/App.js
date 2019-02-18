@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import MainHeader from './modules/main-header';
+import MainFooter from './modules/main-footer';
+import MainContent from './modules/main-content';
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <main>
         <MainHeader></MainHeader>
-      </div>
+        <MainContent></MainContent>
+        <MainFooter></MainFooter>
+      </main>
     );
   }
 }
