@@ -4,8 +4,12 @@ class MainMenu extends Component {
   render() {
     return (
       <ul className="main-header__menu">
-        <li>Home</li>
-        <li>Catalog</li>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/catalog">Catalog</a>
+        </li>
       </ul>
     );
   }
